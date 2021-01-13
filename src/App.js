@@ -40,12 +40,12 @@ class App extends Component {
           placeholder="Search monster"
           handleChange={this.handleChange}
           />
-          
+    
         <CardList monsters={filteredMonsters} />      
       </div>
     );
   }
-  
+
 }
 
 export default App;
